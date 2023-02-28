@@ -11,6 +11,7 @@
   "dependencies": {
     "@nuxt/content": "^1.15.1",
     "@nuxt/types": "^2.16.0",
+    "@nuxtjs/ngrok": "^2.0.0",
     "@nuxtjs/pwa": "^3.3.5",
     "@sweetalert2/theme-material-ui": "^5.0.15",
     "core-js": "^3.25.3",
