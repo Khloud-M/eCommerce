@@ -18,7 +18,7 @@
           {{ p.name }}
         </v-card-title>
         <v-card-subtitle class="primary--text pb-3">
-          {{ p.price }}
+          {{ $formatMoney(p.price)  }}
         </v-card-subtitle>
         <v-card-text>
           <v-chip
