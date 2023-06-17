@@ -11,20 +11,14 @@
         @click="$router.push('/')"
         class="text-md-h5 font-weight-bold pointer"
       >
-        FreeCommerce</v-toolbar-title
+        logo</v-toolbar-title
       >
       <v-spacer />
 
       <v-btn icon nuxt to="/products">
         <v-icon size="20"> mdi-store-outline </v-icon>
       </v-btn>
-      <v-badge overlap :content="$store.state.cart.cart.length"
-      v-if="$store.state.cart.cart.length > 0">
-        <v-btn icon nuxt to="/cart">
-          <v-icon size="20"> mdi-cart-outline </v-icon>
-        </v-btn>
-      </v-badge>
-      <v-btn v-else icon nuxt to="/cart">
+      <v-btn  icon nuxt to="/">
         <v-icon size="20"> mdi-cart-outline </v-icon>
       </v-btn>
       <v-divider vertical class="mx-md-5 mx-2" />
